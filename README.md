@@ -1,7 +1,9 @@
 # Uber-Food-Trucks
 
+(add photos here)
+(ACCEPTED FOOD TRUCKS ONLY - Reflect in DB)
 A full stack solution for finding food trucks in San Francisco
-
+(youtube link)
 ## Features
 - Given a range from origin (Latitude, Longitude), shows all food trucks that lie within the radius
 - Search for food trucks that cater specific food types
