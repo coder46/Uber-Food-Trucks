@@ -14,6 +14,7 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 ## Features
 - Given a range from origin (Latitude, Longitude), shows all food trucks that lie within the radius
 - Search for food trucks that cater specific food types
+	- Search is OR based, thus if a food truck sell any of the food items mentioned in the query, then it will be listed in results
 - Map markers indicate whether the food truck is currently open (Green marker) or closed (Red Marker) in San Francisco based on local san francisco time
 
 ## Architecture/Technical Choices
@@ -51,8 +52,10 @@ http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.4180036038
 - FoodTruck/api/utils.py
 - FoodTruck/api/urls.py
 - FoodTruck/database_script.py
+
 #### API tests
 - FoodTruck/api/tests/test1.py
+
 #### Android
 - java.com.example.faisal.fd5.MapsActivity.java
 - java.com.example.faisal.interfaces.RestApi
@@ -61,6 +64,26 @@ http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.4180036038
 - java.com.example.faisal.models.TruckData
 - java.com.example.faisal.models.TruckItem
 - res.layout.activity_maps.xml
+
+## Setting Up Project Locally
+#### Backend
+> cd FoodTrucks
+
+> source env/bin/activate
+
+> python manage.py runserver 0.0.0.0:8000
+
+#### API Tests
+> cd FoodTrucks
+
+> source env/bin/activate
+
+> coverage run manage.py test api/tests -v 2
+
+#### Android
+You can install the app using the .apk file from root directory or can run from source 
+
+
 
 
 
