@@ -88,6 +88,10 @@ You can install the app using the .apk file from root directory or can run from 
 - Resume (https://www.dropbox.com/s/bmzecmdtjgeffta/Resume_Faisal.pdf?dl=0)
 - LinkedIn (https://in.linkedin.com/in/faisalanees)
 
+## Other Code Contributions
+- Egyptian Fractions module [Sympy]
+	- https://github.com/sympy/sympy/blob/master/sympy/ntheory/egyptian_fraction.py
+
 
 
 
