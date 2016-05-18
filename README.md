@@ -28,5 +28,8 @@ A full stack solution for finding food trucks in San Francisco
 - Database choice
 - Hosting service
 
+## API Endpoint & API Docs
+http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.41800360381603&rad=2.5&q=hot,dogs
+
 
 
