@@ -29,7 +29,7 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 - Database : SQLite
 	- Chose over MySQL/PostgreSQL as project is mostly read-heavy
 - Notable Libraries used:
-	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android. Retrofit feautures that improved performance and general UX of the app include:
+	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android.(Understanding Retrofit was fun!) Retrofit feautures that improved performance and general UX of the app include:
 		- Multi threading. 
 		- Ability to cancel ongoing network calls
 		- JSON parsing done using GSON
