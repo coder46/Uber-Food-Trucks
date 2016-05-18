@@ -81,7 +81,8 @@ http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.4180036038
 > coverage run manage.py test api/tests -v 2
 
 #### Android
-You can install the app using the .apk file from root directory or can run from source 
+You can install the app using the .apk file from root directory or can run from source
+(Please note that the app does not have a splash screen. Thus you will see a white background when the app initially loads)
 
 ## Resume
 - Resume (https://www.dropbox.com/s/bmzecmdtjgeffta/Resume_Faisal.pdf?dl=0)
