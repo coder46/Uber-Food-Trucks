@@ -57,13 +57,13 @@ http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.4180036038
 - FoodTruck/api/tests/test1.py
 
 #### Android
-- java.com.example.faisal.fd5.MapsActivity.java
-- java.com.example.faisal.interfaces.RestApi
-- java.com.example.faisal.models.MetaData
-- java.com.example.faisal.models.ResponseData
-- java.com.example.faisal.models.TruckData
-- java.com.example.faisal.models.TruckItem
-- res.layout.activity_maps.xml
+- src/main/java.com.example.faisal.fd5.MapsActivity.java
+- src/main/java.com.example.faisal.interfaces.RestApi
+- src/main/java.com.example.faisal.models.MetaData
+- src/main/java.com.example.faisal.models.ResponseData
+- src/main/java.com.example.faisal.models.TruckData
+- src/main/java.com.example.faisal.models.TruckItem
+- src/main/res.layout.activity_maps.xml
 
 ## Setting Up Project Locally
 #### Backend
