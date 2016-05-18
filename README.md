@@ -83,6 +83,10 @@ http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.4180036038
 #### Android
 You can install the app using the .apk file from root directory or can run from source 
 
+## Resume
+- Resume (https://www.dropbox.com/s/bmzecmdtjgeffta/Resume_Faisal.pdf?dl=0)
+- LinkedIn (https://in.linkedin.com/in/faisalanees)
+
 
 
 
