@@ -29,7 +29,7 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 - Database : SQLite
 	- Chose over MySQL/PostgreSQL as project is mostly read-heavy
 - Notable Libraries used:
-	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android. Retrofit feautures that improved performance and general UX of the app include:
+	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android.(Understanding Retrofit was fun!) Retrofit feautures that improved performance and general UX of the app include:
 		- Multi threading. 
 		- Ability to cancel ongoing network calls
 		- JSON parsing done using GSON
@@ -82,6 +82,10 @@ http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.4180036038
 
 #### Android
 You can install the app using the .apk file from root directory or can run from source 
+
+## Resume
+- Resume (https://www.dropbox.com/s/bmzecmdtjgeffta/Resume_Faisal.pdf?dl=0)
+- LinkedIn (https://in.linkedin.com/in/faisalanees)
 
 
 
