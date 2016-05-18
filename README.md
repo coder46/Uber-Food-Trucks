@@ -14,7 +14,7 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 ## Features
 - Given a range from origin (Latitude, Longitude), shows all food trucks that lie within the radius
 - Search for food trucks that cater specific food types
-	- Search is OR based, thus if a food truck sell any of the food items mentioned in the query, then it will be listed in results
+	- Search is OR based, thus if a food truck sells any of the food items mentioned in the query, then it will be listed in results
 - Map markers indicate whether the food truck is currently open (Green marker) or closed (Red Marker) in San Francisco based on local san francisco time
 
 ## Architecture/Technical Choices
@@ -29,14 +29,14 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 - Database : SQLite
 	- Chose over MySQL/PostgreSQL as project is mostly read-heavy
 - Notable Libraries used:
-	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android.(Understanding Retrofit was fun!) Retrofit feautures that improved performance and general UX of the app include:
+	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android.(Understanding Retrofit was fun!) Retrofit features that improved performance and general UX of the app include:
 		- Multi threading. 
 		- Ability to cancel ongoing network calls
 		- JSON parsing done using GSON
 
 ## Architectural Tradeoffs
 - Database choice
-	- SQLite performace would decrease if write-intensive features are add to the app. Such as ability for Truck owners to change working hours, food items, location, etc. This brings down general app performance and UX, and increases concurrency issues
+	- SQLite performace would decrease if write-intensive features are added to the app. Such as ability for Truck owners to change working hours, food items, location, etc. This brings down general app performance and UX, and increases concurrency issues
 	- In the above case, we would have to migrate to DBs such as MySQL/PostgreSQL
 - Hosting Service
 	- Scalability will be an issue, as services such as load-balancing are not offered on Digital Ocean and will have to be setup manually, unlike AWS 
