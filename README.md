@@ -18,7 +18,6 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 - Map markers indicate whether the food truck is currently open (Green marker) or closed (Red Marker) in San Francisco based on local san francisco time
 
 ## Architecture/Technical Choices
-(I would like to mention that I had chosen Android as my preferred front end for this project, as I believe I have relatively more experience and am more comfortable in building native mobile applications. I also wanted to give my best attempt at displaying my skillset and thus the decision)
 
 - Front-End : Android
 	- Experience : 2 years of building Android applications at Hackathons, University projects and Hobby projects
