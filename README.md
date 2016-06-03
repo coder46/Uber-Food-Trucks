@@ -41,7 +41,7 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 	- Scalability will be an issue, as services such as load-balancing are not offered on Digital Ocean and will have to be setup manually, unlike AWS 
 
 ## API Endpoint & API Docs
-http://46.101.87.96:8000/api/v1/trucks/?latLng=37.77543786515106,-122.41800360381603&rad=2.5&q=hot,dogs
+http://139.59.12.22:8000/api/v1/trucks/?latLng=37.77543786515106,-122.41800360381603&rad=2.5&q=hot,dogs
 
 ## Code Written
 #### Backend
