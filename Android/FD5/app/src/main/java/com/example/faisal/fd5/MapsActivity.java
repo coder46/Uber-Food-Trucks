@@ -142,7 +142,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Gson gson = new GsonBuilder().create();
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://139.59.12.22:8000/api/v1/")
+                .baseUrl("http://139.59.168.223:8000/api/v1/")
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
