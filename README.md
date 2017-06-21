@@ -26,19 +26,11 @@ Demo video : https://youtu.be/hw406JX4wPI (Duration: 1 min)
 - Testing : Back-end API tested using django.test library and coverage package (http://coverage.readthedocs.io/en/latest/) 
 - Hosting : Digital Ocean droplet running nginx
 - Database : SQLite
-	- Chose over MySQL/PostgreSQL as project is mostly read-heavy
 - Notable Libraries used:
 	- Used Rerofit (http://square.github.io/retrofit/) for consuming the REST API in Android.(Understanding Retrofit was fun!) Retrofit features that improved performance and general UX of the app include:
 		- Multi threading. 
 		- Ability to cancel ongoing network calls
 		- JSON parsing done using GSON
-
-## Architectural Tradeoffs
-- Database choice
-	- SQLite performace would decrease if write-intensive features are added to the app. Such as ability for Truck owners to change working hours, food items, location, etc. This brings down general app performance and UX, and increases concurrency issues
-	- In the above case, we would have to migrate to DBs such as MySQL/PostgreSQL
-- Hosting Service
-	- Scalability will be an issue, as services such as load-balancing are not offered on Digital Ocean and will have to be setup manually, unlike AWS 
 
 ## API Endpoint & API Docs
 http://139.59.168.223:8000/api/v1/trucks/?latLng=37.77543786515106,-122.41800360381603&rad=2.5&q=hot,dogs
